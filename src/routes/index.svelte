@@ -96,7 +96,7 @@
     </div>
 
     <!-- Small usage guide -->
-    <div class="w-full md:w-3/5 pt-6 md:pt-12 flex flex-col-reverse md:flex-row">
+    <div class="w-full md:w-3/5 pt-6 md:pt-12 flex flex-col-reverse md:flex-col">
 
       <div class="flex flex-col my-6 md:my-0 md:flex-row">
         <!-- 
