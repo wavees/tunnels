@@ -28,7 +28,7 @@
 <!-- 
   Main content
  -->
-<main class="w-full relative">
+<main class="w-full">
   <!-- Header -->
   <div class="absolute inset-x-0 top-0 w-full flex justify-between px-2 md:px-6 lg:px-12 py-4 lg:py-6">
     <!-- Logotype -->
@@ -73,9 +73,9 @@
   </div>
 
   <!-- Page's Hero -->
-  <div style="min-height: 100vh;" class="bg-gray-200 w-full flex flex-col md:flex-row items-center">
+  <div style="min-height: 100vh;" class="bg-gray-200 w-full flex flex-col md:flex-row items-center pt-24 md:pt-0">
     <!-- Text -->
-    <div class="w-2/5 flex flex-col justify-center md:justify-start px-4 md:px-8">
+    <div class="w-full md:w-2/5 flex flex-col justify-center md:justify-start px-4 md:px-8">
 
       <h1 class="text-3xl font-semibold">Expose your projects</h1>
       <p class="text-sm text-gray-800 mt-2">Wavees Tunnels is a yet simple and fully free service for tunneling http/https and tcp from localhost to outter internet.</p>
@@ -96,13 +96,13 @@
     </div>
 
     <!-- Small usage guide -->
-    <div class="w-3/5 pt-12">
+    <div class="w-full md:w-3/5 pt-6 md:pt-12 flex flex-col-reverse md:flex-row">
 
-      <div class="flex">
+      <div class="flex flex-col my-6 md:my-0 md:flex-row">
         <!-- 
           Card: SignUp (optional)
         -->
-        <div class="w-1/3 relative px-4">
+        <div class="w-full md:w-1/3 relative px-4">
           <!-- Card Header -->
           <div class="w-full flex items-center justify-between">
             <div class="flex items-start">
@@ -166,7 +166,7 @@
         <!-- 
           Card: Create new Tunnel
         -->
-        <div class="w-1/3 relative px-4">
+        <div class="w-full md:w-1/3 my-6 md:my-0 relative px-4">
           <!-- Card Header -->
           <div class="w-full flex items-center justify-between">
             <div class="flex items-start">
@@ -201,7 +201,7 @@
         <!-- 
           Card: Connect to http/https/tcp tunnel
         -->
-        <div class="w-1/3 relative px-4">
+        <div class="w-full md:w-1/3 my-6 md:my-0 relative px-4">
           <!-- Card Header -->
           <div class="w-full flex items-center justify-between">
             <div class="flex items-start">
@@ -235,7 +235,7 @@
       </div>
 
       <!-- Different Tutorials -->
-      <div class="mt-6 w-full flex justify-center">
+      <div class="my-6 md:mt-6 w-full flex flex-col md:flex-row justify-center">
 
         <!-- Hard tutorial -->
         <div class="mx-6 border-b-2 border-blue-400 py-4 px-2">
